@@ -1526,10 +1526,10 @@
       (reference "R410") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/e7e7f346-4bc2-4d1e-998f-1177a187c2b2"
-      (reference "R411") (unit 1) (value "0R/NM") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+      (reference "R411") (unit 1) (value "0R/NM") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/7237ee2d-cb1b-48bd-93f1-b2006e20597e"
-      (reference "R412") (unit 1) (value "0R/NM") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+      (reference "R412") (unit 1) (value "0R/NM") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/2a594f0b-9a73-45d8-a598-8d401e0d68d5/17af2476-8c3a-4f0f-911f-527f96a75574/8c190863-c746-4de7-9051-1dba26941c56"
       (reference "R801") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -1592,7 +1592,7 @@
       (reference "R2102") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/7a895f33-f38b-485f-a0ca-19e961062da3/bc7bfd09-ad5a-4172-8d74-4a5757f072e6"
-      (reference "SW201") (unit 1) (value "NM") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
+      (reference "SW201") (unit 1) (value "SW_MEC_5G") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
     )
     (path "/ac2fa8a4-f762-4bd0-9f03-d710b2310e74/1257bed3-83b4-42bc-aef3-0bc5def8eb52"
       (reference "SW301") (unit 1) (value "SW_MEC_5G") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
