@@ -354,7 +354,7 @@
     (property "Sheet file" "midi.kicad_sch" (id 1) (at 134.62 102.1846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "MIDI_{TX·}" input (at 134.62 99.06 180)
+    (pin "MIDI_{TX}" input (at 134.62 99.06 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 88112d00-e54c-4b97-8456-630d57ddb31b)
     )
@@ -526,15 +526,6 @@
     (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/77e650f6-260d-495b-9a9d-cf15d1a18215"
       (reference "#J503") (unit 1) (value "DIN-5_180degree") (footprint "Skrooter_footprints:DIN-504-M10")
     )
-    (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/cd17636d-30d3-4f4d-ad50-c70556980766"
-      (reference "#PWR0101") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/d47c702d-be17-462f-b75f-99354a386ac2"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/2dd50b33-922e-4b6c-a1a3-ccd4dad4e049"
-      (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/7a895f33-f38b-485f-a0ca-19e961062da3/d1a7fae6-9ae7-445a-bb76-f5c6ad0ffcba"
       (reference "#PWR0201") (unit 1) (value "+5V") (footprint "")
     )
@@ -589,11 +580,32 @@
     (path "/7a895f33-f38b-485f-a0ca-19e961062da3/a2f806a5-fea1-4090-8692-901a7b378ec3"
       (reference "#PWR0218") (unit 1) (value "GND") (footprint "")
     )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/d0a1251a-3912-4295-aa7d-dbdd247b1b52"
+      (reference "#PWR0219") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/36bbfb74-bf59-47bd-bcd5-2ac92cbff511"
+      (reference "#PWR0220") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/012cd9e6-4fed-49ba-8b02-d42bc2947d98"
+      (reference "#PWR0221") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/7a895f33-f38b-485f-a0ca-19e961062da3/3474f3d8-c1e9-4ea6-b7c0-634fd2e9d145"
-      (reference "#PWR0219") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0222") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/3e37af96-6a18-48f8-b2cf-e0b9ac051e31"
+      (reference "#PWR0223") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/d3a5db14-b593-4fd9-8ae4-e65eca746b7d"
+      (reference "#PWR0224") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/5a183309-39a0-478d-8a69-2a5c6bb6c369"
+      (reference "#PWR0225") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/6bf835b6-0ce3-48e6-9e2f-a2f2ef0c6a8e"
+      (reference "#PWR0226") (unit 1) (value "GND") (footprint "")
     )
     (path "/7a895f33-f38b-485f-a0ca-19e961062da3/d6d2c109-1c5b-4b96-8f50-48bf445b9124"
-      (reference "#PWR0220") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0229") (unit 1) (value "GND") (footprint "")
     )
     (path "/ac2fa8a4-f762-4bd0-9f03-d710b2310e74/99c0b0be-719f-4870-98b5-a3ef0f368964"
       (reference "#PWR0301") (unit 1) (value "GND") (footprint "")
@@ -718,29 +730,50 @@
     (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/43e3dc5f-4334-4c37-afcf-990d4f935abb"
       (reference "#PWR0420") (unit 1) (value "ISOGND") (footprint "")
     )
-    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/7084fc7b-794c-4f5b-ba14-be1484e88ad6"
-      (reference "#PWR0421") (unit 1) (value "ISOVCC") (footprint "")
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/2ca3670f-ba5c-42da-8407-50fb91e2d9cc"
+      (reference "#PWR0421") (unit 1) (value "GND") (footprint "")
     )
-    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/3ea7cf0d-ece8-40a0-b216-f1054af60303"
-      (reference "#PWR0422") (unit 1) (value "+5V") (footprint "")
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/a34c40dc-a3ea-4d46-8cf3-461de3c80a0e"
+      (reference "#PWR0422") (unit 1) (value "ISOGND") (footprint "")
     )
-    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/21655e4b-9f63-40ff-957d-d2a16dbbd815"
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/972f5043-fae7-424f-9627-535a65d46d4b"
       (reference "#PWR0423") (unit 1) (value "ISOGND") (footprint "")
     )
-    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/e7c1ceec-6fe5-4060-947f-033686caa1ba"
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/1f5ccf8e-277e-45cf-ae76-61e4e4522392"
       (reference "#PWR0424") (unit 1) (value "ISOGND") (footprint "")
     )
-    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/453a62cc-2096-41fa-ab73-55df8e377e9f"
-      (reference "#PWR0425") (unit 1) (value "GND") (footprint "")
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/7084fc7b-794c-4f5b-ba14-be1484e88ad6"
+      (reference "#PWR0425") (unit 1) (value "ISOVCC") (footprint "")
     )
-    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/455569a2-d4ec-4484-a722-34e2ddd62b78"
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/3ea7cf0d-ece8-40a0-b216-f1054af60303"
       (reference "#PWR0426") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/21655e4b-9f63-40ff-957d-d2a16dbbd815"
+      (reference "#PWR0427") (unit 1) (value "ISOGND") (footprint "")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/e7c1ceec-6fe5-4060-947f-033686caa1ba"
+      (reference "#PWR0428") (unit 1) (value "ISOGND") (footprint "")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/453a62cc-2096-41fa-ab73-55df8e377e9f"
+      (reference "#PWR0429") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/455569a2-d4ec-4484-a722-34e2ddd62b78"
+      (reference "#PWR0430") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/d8dc3439-3611-49b5-8d8b-a778aff43a0f"
-      (reference "#PWR0427") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0431") (unit 1) (value "GND") (footprint "")
     )
     (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/79d10ea4-7e10-42a8-b9e9-801707d72b69"
-      (reference "#PWR0428") (unit 1) (value "ISOGND") (footprint "")
+      (reference "#PWR0432") (unit 1) (value "ISOGND") (footprint "")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/1fb6d4cd-9acb-418d-9f8f-02a33ee9d9d7"
+      (reference "#PWR0433") (unit 1) (value "ISOGND") (footprint "")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/2f8714b0-a588-4f48-8c57-bda54a1d4afa"
+      (reference "#PWR0434") (unit 1) (value "ISOGND") (footprint "")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/6681f1fb-712b-4f2a-a07c-6d65f717932e"
+      (reference "#PWR0435") (unit 1) (value "ISOGND") (footprint "")
     )
     (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/ae950753-3f07-45b6-8711-6532b074d271"
       (reference "#PWR0501") (unit 1) (value "+3.3V") (footprint "")
@@ -763,11 +796,41 @@
     (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/8ef2ac83-2567-4636-9253-64359f56b84b"
       (reference "#PWR0507") (unit 1) (value "GND") (footprint "")
     )
-    (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/e8748868-7b5e-4e4c-9ae8-d7c2f3a6756f"
+    (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/2dd50b33-922e-4b6c-a1a3-ccd4dad4e049"
       (reference "#PWR0508") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/cd17636d-30d3-4f4d-ad50-c70556980766"
+      (reference "#PWR0509") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/e8748868-7b5e-4e4c-9ae8-d7c2f3a6756f"
+      (reference "#PWR0510") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/d47c702d-be17-462f-b75f-99354a386ac2"
+      (reference "#PWR0511") (unit 1) (value "GND") (footprint "")
+    )
     (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/080c97a9-2749-4a3a-833c-9682208c4c85"
-      (reference "#PWR0509") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0512") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/85d77ce4-d3f0-4fb3-9876-f4724d413bc4"
+      (reference "#PWR0601") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/fb70a17d-e734-49d1-a6b5-cce20c3516ae"
+      (reference "#PWR0602") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/16b6e7b4-bab1-4dc4-81a4-9ea290a83593"
+      (reference "#PWR0603") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/7b7f0b49-fcad-40f1-a0b0-62321d11800e"
+      (reference "#PWR0604") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/c03977f2-f075-4109-81f8-6f101328f628"
+      (reference "#PWR0605") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/840bca7a-1d9d-4e7b-bc94-8b5ce590e12f"
+      (reference "#PWR0606") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/1deb5dec-4bb7-4e75-a919-182c8968eb91"
+      (reference "#PWR0607") (unit 1) (value "GND") (footprint "")
     )
     (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/2a594f0b-9a73-45d8-a598-8d401e0d68d5/69442a29-e871-44c5-ab71-887a7162c191"
       (reference "#PWR0701") (unit 1) (value "+5V") (footprint "")
@@ -1542,6 +1605,177 @@
     )
     (path "/ac2fa8a4-f762-4bd0-9f03-d710b2310e74/ad810f0c-d183-4a23-bcb3-34dbb5c2930a"
       (reference "SW304") (unit 1) (value "SW_MEC_5G") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/419f185e-47b6-4b3b-b85b-c3b3e85c9581"
+      (reference "TP201") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/236f250b-2fe1-4b0e-b4f7-ddbc3a325392"
+      (reference "TP202") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/5f415355-e842-4ace-9c53-5d57be920733"
+      (reference "TP203") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/abc6cf07-8e44-4e00-84c6-2f210df2cdad"
+      (reference "TP204") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/b5b2a24c-7e6c-4376-9510-f3ee99bb7523"
+      (reference "TP205") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/5f0c6ddf-a1db-429a-9795-7a2202e4e062"
+      (reference "TP206") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/c874f945-66d5-47dd-bc23-9812b6b64c15"
+      (reference "TP207") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/f38b2af1-e312-4a74-a034-c7c866fee6a1"
+      (reference "TP208") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/ba5b1d3a-4dfd-43ff-a934-5365a760f34c"
+      (reference "TP209") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/9f39899a-f834-4ece-8c4a-7425a91e7998"
+      (reference "TP210") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/b006b4b4-359a-43ec-9f17-e4820cb49ca6"
+      (reference "TP211") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/898e958d-50b8-4af3-ae02-3161eb801d99"
+      (reference "TP214") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/4eafdee6-71eb-4c10-8d7d-2bbe3affa542"
+      (reference "TP215") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/d26fa85a-df33-4aa1-9e2c-2f47a91bb0c8"
+      (reference "TP216") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/7413d2cf-8257-4c15-b296-a82d8e59176c"
+      (reference "TP217") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/7a895f33-f38b-485f-a0ca-19e961062da3/220dc506-4aff-40f7-a221-74f36f81a4c7"
+      (reference "TP218") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/ac2fa8a4-f762-4bd0-9f03-d710b2310e74/172d6977-6a75-46cf-b40c-de8c6c3d0105"
+      (reference "TP301") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/ac2fa8a4-f762-4bd0-9f03-d710b2310e74/14eaa4be-5b97-4fb1-8f6d-0fabb5d7072c"
+      (reference "TP302") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/61324a8a-373a-4589-a35f-0ac88cf1f4a8"
+      (reference "TP401") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/fb9bfde1-ee4a-4f5b-93f5-49a1b31bf471"
+      (reference "TP402") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/4b1fb220-c978-4d02-a2df-3fd6085d14d2"
+      (reference "TP403") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/a68e5608-2eb2-4e44-bc12-680a690469ea"
+      (reference "TP404") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/f96bcdfc-7e72-4e21-b794-d1e109367826"
+      (reference "TP405") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/63393ab8-da89-47a3-be4a-ba9488119b99"
+      (reference "TP406") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/38d8c00f-bdc1-4227-8c3d-ee56ba4edc14"
+      (reference "TP407") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/ba83e2cc-5d40-4c08-8764-be5b1c3a5df8"
+      (reference "TP408") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/7ae7fc03-4777-4c00-b500-d61032817afd"
+      (reference "TP409") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/0d78a4a7-c392-4adf-9e57-93efdf0b8b74"
+      (reference "TP410") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/b27245b9-0325-4633-922a-90c144ce2a3f"
+      (reference "TP411") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/e1cae2ae-b3bc-4c24-a369-5efd27330cda"
+      (reference "TP412") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/7ca3b1a1-14ef-4c82-8331-84d5d953d70e"
+      (reference "TP413") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/bbf3e1cb-9ee6-4a86-8b57-29b44486fe66"
+      (reference "TP414") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/d50e2e96-19a9-479a-9a91-c88303b4bdea"
+      (reference "TP415") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/3181f7e7-0eeb-4802-b2eb-db3fb6cff21e"
+      (reference "TP416") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/ecc1616e-d337-4d6f-aa8d-a2b5d7c54b71"
+      (reference "TP417") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/efd08212-f756-4768-8d9c-91743f74b153"
+      (reference "TP418") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/d3ca1b84-3556-4fc6-a4a0-6081574c559b"
+      (reference "TP419") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/59328ee0-e1ae-4b12-877b-a965022e5e1c"
+      (reference "TP420") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/51fcb53d-ff35-4c39-bf93-dbbf3acc621f"
+      (reference "TP501") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/6a61af6a-88ef-4b64-8aa8-4a34e80ee921/c3a9a6a8-97c6-42d3-90f6-48e7c9532d51"
+      (reference "TP502") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/2e41b8dd-ffac-4151-905f-da1f5706ac87"
+      (reference "TP601") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/f9ffb01c-80c7-4222-a227-7e826dbb8fc9"
+      (reference "TP602") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/9b70a89c-772f-453d-8240-ec76b2befa35"
+      (reference "TP603") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/0fd78437-0df0-4060-9ab5-0689484568a1"
+      (reference "TP604") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/fc4554e2-199a-4aa1-b5b5-c59fec8dd22a"
+      (reference "TP605") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/a4c87086-0258-4060-8822-d7223453ef86"
+      (reference "TP606") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/1bd6294a-d03f-41f3-898c-2e0c16af6a8c"
+      (reference "TP607") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/e0d6e66d-0b66-4ed9-95b0-706f881ad1d4"
+      (reference "TP608") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/1f3a0270-afe5-42a3-ba5e-ca14a99fff36"
+      (reference "TP609") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/d6ec9592-4274-401c-a2fd-b2085f6ef4e7"
+      (reference "TP610") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/672ed9f8-b2cc-4934-a718-ebc7c3c6cf50"
+      (reference "TP611") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/c6b543d5-0461-4ec9-a1c9-edd7371581e4"
+      (reference "TP612") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/6ec1de75-1c9a-4138-8148-bf4e9d6bb0b4"
+      (reference "TP613") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/5d751ff6-fe70-43b1-8352-4f8888a02be7"
+      (reference "TP614") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/92c61a07-b09b-4b4d-a44a-8ad9947fd256"
+      (reference "TP615") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/a4347c47-0265-4701-896c-58a34aed0cdf"
+      (reference "TP616") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/171fdbc0-4dc7-45d2-9ac0-df6ad8468893/21dbfa89-bc59-47cb-9d1f-c0fa67cae9db"
+      (reference "TP617") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
     )
     (path "/348b77ae-7dd3-4bf1-ac7d-015a5a8605c2/83507aee-64be-4374-b7f4-451b6f643d73"
       (reference "TR401") (unit 1) (value "VPT85BB-01A") (footprint "Skrooter_footprints:VPT85BB01A")
